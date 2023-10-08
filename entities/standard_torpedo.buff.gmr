@@ -1,25 +1,27 @@
 {
-    // TODO: reactivate after tooltip_lines are viable in buffs.
-    // "gui": {
-    //     "hud_icon": "trader_missile_weapon_damage_0_research_subject_hud_icon",
-    //     "name": "weapon_tag_name.missile",
-    //     "is_visible_within_unit_tooltip": true,
-    //     "tooltip_lines": [
-    //         {
-    //             "label_text": "tooltip.ability.impact_damage",
-    //             "value_id": "damage_value",
-    //             "value_float_format": "one_decimal_place"
-    //         },
-    //         {
-    //             "label_text": "tooltip.ability.armor_penetration",
-    //             "value_id": "hull_armor_penetration_value",
-    //             "value_float_format": "no_decimal_place"
-    //         },
-    //         {
-    //             "label_text": "tooltip.ability.duration",
-    //             "value_id": "duration_value",
-    //             "value_float_format": "one_decimal_place"
-    //         }
-    //     ]
-    // }
+    "gui": {
+        "hud_icon": "trader_missile_weapon_damage_0_research_subject_hud_icon",
+        "name": "weapon_tag_name.missile",
+        "is_visible_within_unit_tooltip": true,
+        "tooltip_line_groups": [
+            {
+                "lines": [
+                    {
+                        "rendering_type": "single_value",
+                        "is_resolved_value": true,
+                        "label_text": "tooltip.ability.impact_damage",
+                        "value_id": "damage_value",
+                        "value_float_format": "one_decimal_place"
+                    },
+                    {
+                        "rendering_type": "single_value",
+                        "is_resolved_value": true,
+                        "label_text": "tooltip.ability.armor_penetration",
+                        "value_id": "hull_armor_penetration_value",
+                        "value_float_format": "no_decimal_place"
+                    }
+                ]
+            }
+        ]
+    }
 }

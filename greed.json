@@ -1,12 +1,11 @@
 {
     "name": "Tooltips++",
     "author": "Volt Cruelerz",
-    "url": "https://github.com/VoltCruelerz/ttpp",
+    "url": "https://github.com/VoltCruelerz/tooltips--",
     "description": "Improves the roster of ships.",
-    "version": "1.0.0",
-    "sinsVersion": "1.14.3.0",
-    "greedVersion": "1.0.0",
+    "version": "2.0.0",
+    "sinsVersion": "1.16.7.0",
+    "greedVersion": "2.0.0",
     "dependencies": [],
-    "conflicts": [],
-    "priority": 15
+    "conflicts": []
 }
